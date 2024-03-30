@@ -1,0 +1,318 @@
+1711261182636	geckodriver	INFO	Listening on 127.0.0.1:55268
+1711261213529	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--single-process" "--disable-dev-shm-usage" "-no-remote" "-profile" "C:\\Users\\tnetw\\AppData\\Local\\Temp\\rust_mozprofilec1TrQX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711261214590	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-disable-dev-shm-usage"
+1711261214680	Marionette	INFO	Listening on port 55277
+1711261215095	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/js/bg/weUkfnhPfsAYDGwFPOg527s0mN-IfUjQ6Qxl1TanWMA.js line 2 > eval line 350 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-N5Y4P6G4GN&l=dataLayer&cx=c, line 482: Script terminated by timeout at:
+aa.Fh@https://www.googletagmanager.com/gtag/js?id=G-N5Y4P6G4GN&l=dataLayer&cx=c:482:42
+get@https://www.googletagmanager.com/gtag/js?id=G-N5Y4P6G4GN&l=dataLayer&cx=c:480:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-N5Y4P6G4GN&l=dataLayer&cx=c:480:87
+aa.Sk/c/<@https://www.googletagmanager.com/gtag/js?id=G-N5Y4P6G4GN&l=dataLayer&cx=c:480:412
+
+1711261248318	Marionette	INFO	Stopped listening on port 55277
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1711261268567	geckodriver	INFO	Listening on 127.0.0.1:55343
+1711261296719	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--single-process" "--disable-dev-shm-usage" "-no-remote" "-profile" "C:\\Users\\tnetw\\AppData\\Local\\Temp\\rust_mozprofileQVoAfE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711261297599	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-disable-dev-shm-usage"
+1711261297685	Marionette	INFO	Listening on port 55353
+1711261298007	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/js/bg/weUkfnhPfsAYDGwFPOg527s0mN-IfUjQ6Qxl1TanWMA.js line 2 > eval line 4309 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://nhathuoclongchau.com.vn/_next/static/chunks/framework-f211a704e11e65a7.js, line 1: Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript warning: https://octopus-stream01-cads.fpt.vn/cdp.js, line 8: Script terminated by timeout at:
+e.sendJsonWithTimeout/i.onreadystatechange@https://octopus-stream01-cads.fpt.vn/cdp.js:8:90000
+
+1711261332946	Marionette	INFO	Stopped listening on port 55353
+Dynamically enable window occlusion 1
+1711261358609	geckodriver	INFO	Listening on 127.0.0.1:55435
+1711261386913	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--single-process" "--disable-dev-shm-usage" "-no-remote" "-profile" "C:\\Users\\tnetw\\AppData\\Local\\Temp\\rust_mozprofile0jUw4L"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711261387806	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-disable-dev-shm-usage"
+1711261387892	Marionette	INFO	Listening on port 55444
+1711261388213	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/js/bg/weUkfnhPfsAYDGwFPOg527s0mN-IfUjQ6Qxl1TanWMA.js line 2 > eval line 3778 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-N5Y4P6G4GN&l=dataLayer&cx=c, line 113: Script terminated by timeout at:
+rb@https://www.googletagmanager.com/gtag/js?id=G-N5Y4P6G4GN&l=dataLayer&cx=c:113:1329
+wH@https://www.googletagmanager.com/gtag/js?id=G-N5Y4P6G4GN&l=dataLayer&cx=c:531:18
+aa.Wm@https://www.googletagmanager.com/gtag/js?id=G-N5Y4P6G4GN&l=dataLayer&cx=c:510:423
+c@https://www.googletagmanager.com/gtag/js?id=G-N5Y4P6G4GN&l=dataLayer&cx=c:531:677
+Gm@https://www.googletagmanager.com/gtag/js?id=G-N5Y4P6G4GN&l=dataLayer&cx=c:275:298
+Fm.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-N5Y4P6G4GN&l=dataLayer&cx=c:278:279
+Fm.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-N5Y4P6G4GN&l=dataLayer&cx=c:276:207
+ym@https://www.googletagmanager.com/gtag/js?id=G-N5Y4P6G4GN&l=dataLayer&cx=c:273:636
+FH/<@https://www.googletagmanager.com/gtag/js?id=G-N5Y4P6G4GN&l=dataLayer&cx=c:532:178
+aa.Sk/<@https://www.googletagmanager.com/gtag/js?id=G-N5Y4P6G4GN&l=dataLayer&cx=c:481:126
+aa.Sk/c/<@https://www.googletagmanager.com/gtag/js?id=G-N5Y4P6G4GN&l=dataLayer&cx=c:480:420
+
+1711261441383	Marionette	INFO	Stopped listening on port 55444
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+Exiting due to channel error.
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+[GFX1-]: CompositorBridgeChild receives IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1711261561251	geckodriver	INFO	Listening on 127.0.0.1:55528
+1711261589662	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--single-process" "--disable-dev-shm-usage" "-no-remote" "-profile" "C:\\Users\\tnetw\\AppData\\Local\\Temp\\rust_mozprofilepOErJE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711261590646	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-disable-dev-shm-usage"
+1711261590741	Marionette	INFO	Listening on port 55537
+1711261590826	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/js/bg/weUkfnhPfsAYDGwFPOg527s0mN-IfUjQ6Qxl1TanWMA.js line 2 > eval line 6956 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.gstatic.com/og/_/js/k=og.qtm.en_US.ONu2-d3nfJQ.2019.O/rt=j/m=qabr,qgl,q_dnp,qcwid,qbd,qapid,qald,qrcd,q_dg,qrbg/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTuqK5zupohdywxEVdO08ckxPTTkAA, line 204: Script terminated by timeout at:
+rl@https://www.gstatic.com/og/_/js/k=og.qtm.en_US.ONu2-d3nfJQ.2019.O/rt=j/m=qabr,qgl,q_dnp,qcwid,qbd,qapid,qald,qrcd,q_dg,qrbg/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTuqK5zupohdywxEVdO08ckxPTTkAA:204:286
+nl@https://www.gstatic.com/og/_/js/k=og.qtm.en_US.ONu2-d3nfJQ.2019.O/rt=j/m=qabr,qgl,q_dnp,qcwid,qbd,qapid,qald,qrcd,q_dg,qrbg/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTuqK5zupohdywxEVdO08ckxPTTkAA:203:215
+K@https://www.gstatic.com/og/_/js/k=og.qtm.en_US.ONu2-d3nfJQ.2019.O/rt=j/m=qabr,qgl,q_dnp,qcwid,qbd,qapid,qald,qrcd,q_dg,qrbg/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTuqK5zupohdywxEVdO08ckxPTTkAA:202:455
+pl/<@https://www.gstatic.com/og/_/js/k=og.qtm.en_US.ONu2-d3nfJQ.2019.O/rt=j/m=qabr,qgl,q_dnp,qcwid,qbd,qapid,qald,qrcd,q_dg,qrbg/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTuqK5zupohdywxEVdO08ckxPTTkAA:199:120
+gf@https://www.gstatic.com/og/_/js/k=og.qtm.en_US.ONu2-d3nfJQ.2019.O/rt=j/m=qabr,qgl,q_dnp,qcwid,qbd,qapid,qald,qrcd,q_dg,qrbg/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTuqK5zupohdywxEVdO08ckxPTTkAA:22:104
+b@https://www.gstatic.com/og/_/js/k=og.qtm.en_US.ONu2-d3nfJQ.2019.O/rt=j/m=qabr,qgl,q_dnp,qcwid,qbd,qapid,qald,qrcd,q_dg,qrbg/exm=qaaw,qadd,qaid,qein,qhaw,qhba,qhbr,qhch,qhga,qhid,qhin/d=1/ed=1/rs=AA2YrTuqK5zupohdywxEVdO08ckxPTTkAA:20:49
+
+1711261620665	Marionette	INFO	Stopped listening on port 55537
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1711261631440	geckodriver	INFO	Listening on 127.0.0.1:55581
+1711261659759	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--single-process" "--disable-dev-shm-usage" "-no-remote" "-profile" "C:\\Users\\tnetw\\AppData\\Local\\Temp\\rust_mozprofilentn59x"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711261660644	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-disable-dev-shm-usage"
+1711261660732	Marionette	INFO	Listening on port 55592
+1711261661052	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/js/bg/weUkfnhPfsAYDGwFPOg527s0mN-IfUjQ6Qxl1TanWMA.js line 2 > eval line 1247 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-4XWTCXBE72, line 293: Script terminated by timeout at:
+Fm.prototype.flush/<@https://www.googletagmanager.com/gtag/js?id=G-4XWTCXBE72:293:271
+Fm.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-4XWTCXBE72:293:272
+Fm.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-4XWTCXBE72:291:207
+ym@https://www.googletagmanager.com/gtag/js?id=G-4XWTCXBE72:288:636
+FH/<@https://www.googletagmanager.com/gtag/js?id=G-4XWTCXBE72:547:178
+aa.Sk/<@https://www.googletagmanager.com/gtag/js?id=G-4XWTCXBE72:496:126
+aa.Sk/c/<@https://www.googletagmanager.com/gtag/js?id=G-4XWTCXBE72:495:420
+
+1711261696904	Marionette	INFO	Stopped listening on port 55592
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1711261879527	geckodriver	INFO	Listening on 127.0.0.1:55653
+1711261912979	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--single-process" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "C:\\Users\\tnetw\\AppData\\Local\\Temp\\rust_mozprofileg9yhtT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711261913980	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-disable-dev-shm-usage"
+1711261914076	Marionette	INFO	Listening on port 55667
+1711261914199	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/js/bg/weUkfnhPfsAYDGwFPOg527s0mN-IfUjQ6Qxl1TanWMA.js line 2 > eval line 2579 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1711261948314	Marionette	INFO	Stopped listening on port 55667
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1711261959793	geckodriver	INFO	Listening on 127.0.0.1:55734
+1711261972773	geckodriver	INFO	Listening on 127.0.0.1:55738
+1711262001275	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--single-process" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "C:\\Users\\tnetw\\AppData\\Local\\Temp\\rust_mozprofileFSJesr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711262002507	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-disable-dev-shm-usage"
+1711262002593	Marionette	INFO	Listening on port 55746
+1711262003339	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://connect.facebook.net/en_US/fbevents.js, line 24: Script terminated by timeout at:
+value@https://connect.facebook.net/en_US/fbevents.js:24:7878
+@https://connect.facebook.net/en_US/fbevents.js:24:72640
+
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F, line 352: Script terminated by timeout at:
+eo@https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F:352:327
+go@https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F:349:669
+uo@https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F:354:814
+mG@https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F:563:394
+aa.Xm@https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F:596:118
+aa.Wm/</<@https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F:591:124
+wl@https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F:313:439
+Jl@https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F:316:155
+aa.Wm/<@https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F:591:110
+c@https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F:438:169
+Bt@https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F:439:269
+aa.Wm@https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F:591:96
+c@https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F:611:677
+Gm@https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F:323:298
+Fm.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F:326:279
+Fm.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F:324:207
+ym@https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F:321:636
+FH/<@https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F:612:178
+aa.Sk/<@https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F:561:126
+aa.Sk/c/<@https://www.googletagmanager.com/gtag/js?id=G-KL0ZDVFN4F:560:420
+
+1711262041645	Marionette	INFO	Stopped listening on port 55746
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1711262167745	geckodriver	INFO	Listening on 127.0.0.1:55869
+1711262196050	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--single-process" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "C:\\Users\\tnetw\\AppData\\Local\\Temp\\rust_mozprofile6w0EHV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711262197061	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-disable-dev-shm-usage"
+1711262197146	Marionette	INFO	Listening on port 55880
+1711262197425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1711262230201	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/ContentMetaChild.sys.mjs, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1711262234894	Marionette	INFO	Stopped listening on port 55880
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1711262801317	geckodriver	INFO	Listening on 127.0.0.1:56026
+1711262836557	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--single-process" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "C:\\Users\\tnetw\\AppData\\Local\\Temp\\rust_mozprofileed1BsW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711262837506	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-disable-dev-shm-usage"
+1711262837594	Marionette	INFO	Listening on port 56045
+1711262837911	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711262867925	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/PromiseWorker.sys.mjs, line 96: Error: Could not get children of file(C:\Users\tnetw\AppData\Local\Temp\rust_mozprofileed1BsW\thumbnails) because it does not exist
+Exiting due to channel error.
+1711263037146	geckodriver	INFO	Listening on 127.0.0.1:56132
+1711263066089	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--single-process" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "C:\\Users\\tnetw\\AppData\\Local\\Temp\\rust_mozprofilegITPFS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711263066972	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-disable-dev-shm-usage"
+1711263067060	Marionette	INFO	Listening on port 56140
+1711263067342	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711263097011	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/PromiseWorker.sys.mjs, line 96: Error: Could not get children of file(C:\Users\tnetw\AppData\Local\Temp\rust_mozprofilegITPFS\thumbnails) because it does not exist
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lMurIrX8vEK0bcUypoGvAO2aPAi1PzGqjDxCD8bJ-j0.js line 2 > eval line 4444 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/lMurIrX8vEK0bcUypoGvAO2aPAi1PzGqjDxCD8bJ-j0.js line 2 > eval line 3018 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1711263453591	geckodriver	INFO	Listening on 127.0.0.1:56254
+1711263498485	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--single-process" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "C:\\Users\\tnetw\\AppData\\Local\\Temp\\rust_mozprofileeFUdLT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711263499402	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-disable-dev-shm-usage"
+1711263499497	Marionette	INFO	Listening on port 56324
+1711263499916	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1711263529566	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/PromiseWorker.sys.mjs, line 96: Error: Could not get children of file(C:\Users\tnetw\AppData\Local\Temp\rust_mozprofileeFUdLT\thumbnails) because it does not exist
+[Child 10528, MediaDecoderStateMachine #2] WARNING: 271e8885940 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+JavaScript warning: https://www.google.com/js/th/xe0jpUv_7_XFNSeMfyfrZkLqPrcN-pIWT6_UXz51XO0.js line 2 > eval line 4554 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/desktop/436f2749/jsbin/desktop_polymer.vflset/desktop_polymer.js, line 2634: Script terminated by timeout at:
+Tp.prototype.transition@https://www.youtube.com/s/desktop/436f2749/jsbin/desktop_polymer.vflset/desktop_polymer.js:2634:33
+MK/<@https://www.youtube.com/s/desktop/436f2749/jsbin/desktop_polymer.vflset/desktop_polymer.js:9560:114
+
+JavaScript error: resource://gre/actors/AudioPlaybackChild.sys.mjs, line 17: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1711263636138	Marionette	INFO	Stopped listening on port 56324
+Dynamically enable window occlusion 1
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1711271489774	geckodriver	INFO	Listening on 127.0.0.1:58858
+1711271532817	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--single-process" "--disable-dev-shm-usage" "-foreground" "-no-remote" "-profile" "C:\\Users\\tnetw\\AppData\\Local\\Temp\\rust_mozprofileYERr8q"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711271534083	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-disable-dev-shm-usage"
+1711271534192	Marionette	INFO	Listening on port 58870
+1711271534777	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PromiseWorker.sys.mjs, line 96: Error: Could not get children of file(C:\Users\tnetw\AppData\Local\Temp\rust_mozprofileYERr8q\thumbnails) because it does not exist
+1711271568582	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://tuoitre.vn/ line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tuoitre.vn/ line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tuoitre.vn/ line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://tuoitre.vn/ line 1 > injectedScript, line 2: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-G4SHSWB0Y5&l=dataLayer&cx=c, line 169: Script terminated by timeout at:
+rb@https://www.googletagmanager.com/gtag/js?id=G-G4SHSWB0Y5&l=dataLayer&cx=c:169:1329
+DB/<@https://www.googletagmanager.com/gtag/js?id=G-G4SHSWB0Y5&l=dataLayer&cx=c:520:168
+rb@https://www.googletagmanager.com/gtag/js?id=G-G4SHSWB0Y5&l=dataLayer&cx=c:170:5
+DB@https://www.googletagmanager.com/gtag/js?id=G-G4SHSWB0Y5&l=dataLayer&cx=c:520:135
+EB/<@https://www.googletagmanager.com/gtag/js?id=G-G4SHSWB0Y5&l=dataLayer&cx=c:520:111
+
+[Child 9732, MediaDecoderStateMachine #1] WARNING: 1f92959f820 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:320
+JavaScript warning: https://www.google.com/js/th/Ho6KsBVCZjPrv61L-163_eQJCveP8mYbx3iaSf1_8MQ.js line 2 > eval line 6835 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i_Ou4/yX/l/en_GB/kbFnzNy-KO7.js?_nc_x=Ij3Wp8lg5Kz, line 21: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/r3m9xhKpEI0.js?_nc_x=Ij3Wp8lg5Kz, line 279: Script terminated by timeout at:
+a/<@https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/r3m9xhKpEI0.js?_nc_x=Ij3Wp8lg5Kz:279:113
+
+JavaScript warning: https://www.youtube.com/s/desktop/436f2749/jsbin/desktop_polymer.vflset/desktop_polymer.js, line 2634: Script terminated by timeout at:
+Tp.prototype.transition@https://www.youtube.com/s/desktop/436f2749/jsbin/desktop_polymer.vflset/desktop_polymer.js:2634:33
+MK/<@https://www.youtube.com/s/desktop/436f2749/jsbin/desktop_polymer.vflset/desktop_polymer.js:9560:114
+
+1711273368992	Marionette	INFO	Stopped listening on port 58870
+Dynamically enable window occlusion 1
