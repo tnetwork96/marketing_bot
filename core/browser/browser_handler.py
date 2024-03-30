@@ -1,5 +1,5 @@
 from time import time, sleep
-from random import choice as random_choice
+from random import choice as random_choice, randint
 from json.decoder import JSONDecodeError
 from json import loads as json_loads
 from json import dumps as json_dumps
@@ -113,13 +113,13 @@ class BrowserHandler(object):
     def scroll_page(self, scroll_times: int = 1):
         """Scroll page by execute javascript"""
         scroll_offset = 0
-        while scroll_times > 0:
-            print("scroll_times: ", scroll_times)
-            length = random_choice([600, 1000])
+        print("scroll_times: ", scroll_times)
+        for _ in range(scroll_times):
+            length = randint(300, 700)
+            length = random_choice([length * -1, length])
             self.driver.execute_script(JSConstant.WINDOW_SCROLL_TO.format(scroll_offset, scroll_offset + length))
             scroll_offset += length
-            scroll_times -= 1
-            sleep(5)
+            sleep(randint(60, 500))
 
     def load_cookie(self, xpath_list: list, wait_time: int = 10, cookies=None):
         """
@@ -152,17 +152,16 @@ class BrowserHandler(object):
 
     def web_drive_wait_until(self, xpath_list: list, wait_time: int = 10):
         """wait html pattern loading"""
-        wait_status = True
         for xpath in xpath_list:
             try:
                 self.web_drive_wait(self.driver, wait_time).until(
                     self.expected_conditions.presence_of_element_located(
                         (self.by.XPATH, xpath)))
-                break
+                return xpath
             except (self.exceptions.NoSuchElementException,
                     self.exceptions.TimeoutException):
-                wait_status = False
-        return wait_status
+                continue
+        return None
 
     @staticmethod
     def remove_cookie_properties_un_use(cookies):

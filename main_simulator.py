@@ -1,3 +1,4 @@
+import random
 import sys
 import time
 from json import dumps
@@ -51,8 +52,10 @@ def parse_group_id(group_link):
     elements = group_link.split("/groups/")[-1].split("/")
     return elements[0]
 
+
 def save_cookies(cookies):
     gg_sheet_handler.over_write(cookies_spreadsheet_name, sys.argv[1].strip(), dumps(cookies))
+
 
 def run_simulator():
     post_links_from_gg_api = gg_sheet_handler.read(spreadsheet_name, sys.argv[1].strip())
@@ -63,6 +66,23 @@ def run_simulator():
     data = request.post(url=get_comment_url, json={
         "post_link_list": post_links
     }).json().get("data", {})
+    cookies = gg_sheet_handler.read(cookies_spreadsheet_name, sys.argv[1].strip())[0].strip()
+    test = simulator(cookies=cookies)
+    if not data:
+        read_new_feed_times = random.randint(5, 13)
+        print("read_new_feed_times: ", read_new_feed_times)
+        test.read_new_feed()
+        for _ in range(read_new_feed_times):
+            print("reading new feed  ....")
+            data = request.post(url=get_comment_url, json={
+                "post_link_list": post_links
+            }).json().get("data", {})
+            if not data:
+                test.read_new_feed(read_continue=True)
+            else:
+                print("Have comment")
+                break
+
     if data:
         post_link = data.get("post_link")
         if post_link:
@@ -84,8 +104,6 @@ def run_simulator():
                 print("khong duoc comment group nay")
                 return
         comment = data.get("comment")
-        cookies = gg_sheet_handler.read(cookies_spreadsheet_name, sys.argv[1].strip())[0].strip()
-        test = simulator(cookies=cookies)
         group_action = test.comment_on_post(post_link, comment)
         save_cookies(test.browser_handler.get_driver_cookie())
         time.sleep(15)
@@ -105,8 +123,8 @@ def run_simulator():
         if post_link not in post_links:
             remove_comment(post_link, comment)
             gg_sheet_handler.write(spreadsheet_name, sys.argv[1].strip(), post_link)
-        test.like_action()
-        test.browser_handler.close_driver()
-        time.sleep(5)
+        # test.like_action()
+    test.browser_handler.close_driver()
+
 
 run_simulator()
