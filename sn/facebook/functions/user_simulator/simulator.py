@@ -15,7 +15,9 @@ class simulator(object):
         self.browser_handler.set_driver_option()
 
     def comment_action(self, text_box, text):
-        [text_box.send_keys(char) for char in text]
+        for char in text:
+            time.sleep(random.choice([0.1, 0.2, 0.3]))
+            text_box.send_keys(char)
 
     def is_group_ban(self, post_link):
         is_ban = False
@@ -30,66 +32,62 @@ class simulator(object):
     def is_join_group(self):
         return self.browser_handler.web_drive_wait_until(xpath_list=[FacebookXPath.JOINED_GROUP_PATTERN], wait_time=10)
 
-
     def comment_on_post(self, link, comment):
         is_post_deleted = False
         if not self.logged_in_status:
             self.login()
         link = link.strip()
+        print(link)
         self.browser_handler.open_url(link)
-        if not self.is_join_group():
-            print("group nay chua tham gia")
-            return
-        if self.browser_handler.web_drive_wait_until(xpath_list=[FacebookXPath.MORE_GROUP_PATTERN], wait_time=10):
-            more_group_button = self.browser_handler.driver.find_element_by_xpath(FacebookXPath.MORE_GROUP_PATTERN)
-            more_group_button.send_keys(self.browser_handler.keys.SHIFT,
-                                        self.browser_handler.keys.TAB, self.browser_handler.keys.ENTER)
-            time.sleep(5)
-        pattern_write_comment = None
-        if self.browser_handler.web_drive_wait_until(xpath_list=[FacebookXPath.WRITE_COMMENT_PATTERN], wait_time=30):
-            pattern_write_comment = FacebookXPath.WRITE_COMMENT_PATTERN
-        elif self.browser_handler.web_drive_wait_until(xpath_list=[FacebookXPath.WRITE_ANSWER_PATTERN], wait_time=30):
-            pattern_write_comment = FacebookXPath.WRITE_ANSWER_PATTERN
-        if not pattern_write_comment:
-            is_group_ban = self.is_group_ban(link)
-            if not is_group_ban:
-                print("post bi xoa")
-                return "deleted"
-            else:
-                print("bi ban roi")
-                return "banned"
-        try:
-            comment_box = self.browser_handler.driver.find_element_by_xpath(pattern_write_comment)
-        except self.browser_handler.exceptions.NoSuchElementException:
-            if self.browser_handler.web_drive_wait_until(xpath_list=[FacebookXPath.WRITE_PUBLIC_COMMENT_PATTERN], wait_time=10):
-                comment_box = self.browser_handler.driver.find_element_by_xpath(FacebookXPath.WRITE_PUBLIC_COMMENT_PATTERN)
-        tag_name = None
-        comment_sequence = []
-        if "bencang" in comment:
-            comment_sequence = comment.split("bencang")
-            tag_name = "@haisanben"
-        if "vongxoay" in comment:
-            comment_sequence = comment.split("vongxoay")
-            tag_name = "@vongxoayseafood"
-        if tag_name:
-            self.comment_action(comment_box, "".join(comment_sequence[0]))
-            time.sleep(2)
-            self.comment_action(comment_box, tag_name)
-            time.sleep(5)
-            if tag_name == "@haisanben":
-                comment_box.send_keys(self.browser_handler.keys.ARROW_DOWN)
-                time.sleep(1)
-            comment_box.send_keys(self.browser_handler.keys.ENTER)
-            time.sleep(2)
-            self.comment_action(comment_box, "".join(comment_sequence[-1]))
-            time.sleep(2)
-            comment_box.send_keys(self.browser_handler.keys.ENTER)
-            time.sleep(2)
-        else:
-            self.comment_action(comment_box, comment)
-            time.sleep(2)
-            comment_box.send_keys(self.browser_handler.keys.ENTER)
-            time.sleep(2)
+        # if not self.is_join_group():
+        #     print("group nay chua tham gia")
+        #     return
+        # if self.browser_handler.web_drive_wait_until(xpath_list=[FacebookXPath.MORE_GROUP_PATTERN], wait_time=10):
+        #     more_group_button = self.browser_handler.driver.find_element_by_xpath(FacebookXPath.MORE_GROUP_PATTERN)
+        #     more_group_button.send_keys(self.browser_handler.keys.SHIFT,
+        #                                 self.browser_handler.keys.TAB, self.browser_handler.keys.ENTER)
+        #     time.sleep(5)
+        pattern_write_comment = self.browser_handler.web_drive_wait_until(
+            xpath_list=[FacebookXPath.WRITE_PUBLIC_COMMENT_PATTERN,
+                        FacebookXPath.WRITE_COMMENT_PATTERN,
+                        FacebookXPath.WRITE_ANSWER_PATTERN], wait_time=30)
+        # if not pattern_write_comment:
+        #     is_group_ban = self.is_group_ban(link)
+        #     if not is_group_ban:
+        #         print("post bi xoa")
+        #         return "deleted"
+        #     else:
+        #         print("bi ban roi")
+        #         return "banned"
+        comment_box = self.browser_handler.driver.find_element_by_xpath(pattern_write_comment)
+        # tag_name = None
+        # comment_sequence = []
+        # if "bencang" in comment:
+        #     comment_sequence = comment.split("bencang")
+        #     tag_name = "@haisanben"
+        # if "vongxoay" in comment:
+        #     comment_sequence = comment.split("vongxoay")
+        #     tag_name = "@vongxoayseafood"
+        # if tag_name:
+        #     self.comment_action(comment_box, "".join(comment_sequence[0]))
+        #     time.sleep(2)
+        #     self.comment_action(comment_box, tag_name)
+        #     time.sleep(5)
+        #     if tag_name == "@haisanben":
+        #         comment_box.send_keys(self.browser_handler.keys.ARROW_DOWN)
+        #         time.sleep(1)
+        #     comment_box.send_keys(self.browser_handler.keys.ENTER)
+        #     time.sleep(2)
+        #     self.comment_action(comment_box, "".join(comment_sequence[-1]))
+        #     time.sleep(2)
+        #     comment_box.send_keys(self.browser_handler.keys.ENTER)
+        #     time.sleep(2)
+        # else:
+        self.comment_action(comment_box, comment)
+        time.sleep(2)
+        comment_box.send_keys(self.browser_handler.keys.ENTER)
+        time.sleep(2)
+        self.read_new_feed()
         return is_post_deleted
 
     def random_action(self):
@@ -156,5 +154,16 @@ class simulator(object):
         if not self.browser_handler.web_drive_wait_until(xpath_list=[FacebookXPath.USERNAME_FORM], wait_time=30):
             raise HTTPError(f"{FacebookXPath.USERNAME_FORM} could not found before load cookie")
         load_cookie_status = self.browser_handler.load_cookie(
-            xpath_list=[FacebookXPath.SEARCH_MOBILE_FORM], cookies=self.cookies)
+            xpath_list=[FacebookXPath.SEARCH_FORM, FacebookXPath.SEARCH_MOBILE_FORM], cookies=self.cookies)
         return load_cookie_status
+
+    def read_new_feed(self, read_continue=False):
+        if not read_continue:
+            self.browser_handler.open_url(FacebookUrl.FACEBOOK_URL.format(""))
+        if not self.browser_handler.web_drive_wait_until(
+                xpath_list=[FacebookXPath.SEARCH_FORM, FacebookXPath.SEARCH_MOBILE_FORM],
+                wait_time=30):
+            return
+        time.sleep(random.randint(10, 60))
+        self.browser_handler.scroll_page(random.randint(7,  50))
+        time.sleep(random.randint(10, 240))

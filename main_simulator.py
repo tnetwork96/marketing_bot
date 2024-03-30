@@ -13,11 +13,11 @@ gg_sheet_handler = GoogleSheetHandler("GROUPS_MANAGER")
 request = session()
 
 # get_comment_url = f'http://{Request.API_SERVICE}/comments/get_comment'
-get_comment_url = f'http://192.168.1.5:8000/comments/get_comment'
+get_comment_url = f'http://192.168.1.6:8000/comments/get_comment'
 # remove_comment_url = f'http://{Request.API_SERVICE}/comments/remove_comment'
-remove_comment_url = f'http://192.168.1.5:8000/comments/remove_comment'
+remove_comment_url = f'http://192.168.1.6:8000/comments/remove_comment'
 # register_slot_url = f'http://{Request.API_SERVICE}/slot/register'
-register_slot_url = f'http://192.168.1.5:8000/slot/register'
+register_slot_url = f'http://192.168.1.6:8000/slot/register'
 file_name = "post_link.txt"
 ban_gr_file = "ban_group.txt"
 spreadsheet_name = "post link used"
