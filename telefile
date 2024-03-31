@@ -1,5 +1,5 @@
 #FROM arm32v7/python:3.8
-FROM python:3.8
+FROM arm64v8/python:3.8
 WORKDIR /home/marketing-bot
 ENV PYTHONPATH /home/marketing-bot
 COPY . ./
