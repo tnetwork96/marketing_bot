@@ -3,31 +3,31 @@ networks:
   my-network:
     driver: bridge
 services:
-#  telegram_service:
-#    command: python3 main_bot.py &
-#    restart: always
-#    build:
-#      context: .
-#      dockerfile: telefile
-#    networks:
-#      - my-network
-#  api_service:
-#    command: python3 temp_api.py &
-#    restart: always
-#    build:
-#      context: .
-#      dockerfile: apifile
-#    ports:
-#      - "8000:8000"
-#    networks:
-#      - my-network
-#  marketing_service:
-#    command: python3 main_simulator.py tonquangtung &
-#    build:
-#      context: .
-#      dockerfile: botfile
-#    networks:
-#      - my-network
+  telegram_service:
+    command: python3 main_bot.py &
+    restart: always
+    build:
+      context: .
+      dockerfile: telefile
+    networks:
+      - my-network
+  api_service:
+    command: python3 temp_api.py &
+    restart: always
+    build:
+      context: .
+      dockerfile: apifile
+    ports:
+      - "8000:8000"
+    networks:
+      - my-network
+  marketing_service:
+    command: python3 main_simulator.py tonquangtung &
+    build:
+      context: .
+      dockerfile: botfile
+    networks:
+      - my-network
 #  profile_crawler_service:
 #    command: python3 main_profile_crawler.py &
 #    build:
@@ -49,11 +49,11 @@ services:
 #      dockerfile: dmcl_docker_file
 #    networks:
 #      - my-network
-  telegram_xemdiem_service:
-    command: python3 main_xem_diem.py &
-    restart: always
-    build:
-      context: .
-      dockerfile: telexemdiemfile
-    networks:
-      - my-network
+#  telegram_xemdiem_service:
+#    command: python3 main_xem_diem.py &
+#    restart: always
+#    build:
+#      context: .
+#      dockerfile: telexemdiemfile
+#    networks:
+#      - my-network
