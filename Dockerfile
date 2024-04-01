@@ -1,9 +1,9 @@
-FROM arm64v8/python:3.8
+FROM arm64v8/ubuntu:18.04
 WORKDIR /home/marketing-bot
 ENV PYTHONPATH /home/marketing-bot
 COPY . ./
 RUN apt update
-# RUN apt install -y python3.8 python3-pip wget
+RUN apt install -y python3.8 python3-pip wget
 RUN apt install -y firefox
 RUN wget https://github.com/mozilla/geckodriver/releases/download/v0.23.0/geckodriver-v0.23.0-arm7hf.tar.gz
 RUN tar -xf geckodriver-v0.23.0-arm7hf.tar.gz
