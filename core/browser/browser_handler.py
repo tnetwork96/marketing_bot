@@ -64,7 +64,10 @@ class BrowserHandler(object):
     def get_browser_driver(self, options, profile_path):
         driver = None
         if self.browser_name == "firefox":
-            driver = webdriver.Firefox(options=options)
+            profile_path = r"C:\Users\tnetw\AppData\Roaming\Mozilla\Firefox\Profiles\z7wp0gn5.default"
+            profile = webdriver.FirefoxProfile(profile_path)
+
+            driver = webdriver.Firefox(firefox_profile=profile, options=options)
             if profile_path:
                 driver = webdriver.Firefox(options=options, firefox_profile=profile_path)
         elif self.browser_name == "chrome":
@@ -76,15 +79,15 @@ class BrowserHandler(object):
     def set_driver_option(self):
         """Set browser option"""
         options = webdriver.FirefoxOptions()
-        # options.binary_location = self.driver_binary_path
+        profile_path = r"C:\Users\tnetw\AppData\Roaming\Mozilla\Firefox\Profiles\z129atq1.default-release"
+        options.add_argument(f"--profile {profile_path}")
         windows_size_argument = self.get_browser_window_size_argument_from_cookie(self.get_cookie())
         if windows_size_argument:
             options.add_argument(windows_size_argument)
-        options.add_argument(BrowserOptionConstant.HEADLESS)
+        # options.add_argument(BrowserOptionConstant.HEADLESS)
         options.add_argument(BrowserOptionConstant.NO_SANDBOX)
         options.add_argument(BrowserOptionConstant.SINGLE_PROCESS)
         options.add_argument(BrowserOptionConstant.DISABLE_DEV_SHM_USAGE)
-        # self.driver = webdriver.Firefox(executable_path=self.driver_path, options=options)
         self.driver = webdriver.Firefox(options=options)
         sleep(20)
 
