@@ -5,6 +5,7 @@ from json import loads as json_loads
 from json import dumps as json_dumps
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.common.keys import Keys
@@ -13,11 +14,11 @@ from core.util.file_handler import FileHandler
 from core.constant.base_selenium_constant import BrowserOptionConstant, \
     CookieConstant, JSConstant, DriverPathConstant
 
-
 class BrowserHandler(object):
     def __init__(self, browser_name):
         self.browser_name = browser_name
         self.web_drive_wait = WebDriverWait
+        self.action_chains = ActionChains
         self.exceptions = exceptions
         self.keys = Keys
         self.expected_conditions = expected_conditions
@@ -64,12 +65,13 @@ class BrowserHandler(object):
     def get_browser_driver(self, options, profile_path):
         driver = None
         if self.browser_name == "firefox":
-            profile_path = r"C:\Users\tnetw\AppData\Roaming\Mozilla\Firefox\Profiles\z7wp0gn5.default"
-            profile = webdriver.FirefoxProfile(profile_path)
+            # profile_path = r"C:\Users\tnetw\AppData\Roaming\Mozilla\Firefox\Profiles\z7wp0gn5.default"
+            # profile = webdriver.FirefoxProfile(profile_path)
 
-            driver = webdriver.Firefox(firefox_profile=profile, options=options)
-            if profile_path:
-                driver = webdriver.Firefox(options=options, firefox_profile=profile_path)
+            # driver = webdriver.Firefox(firefox_profile=profile, options=options)
+            driver = webdriver.Firefox(options=options)
+            # if profile_path:
+            #     driver = webdriver.Firefox(options=options, firefox_profile=profile_path)
         elif self.browser_name == "chrome":
             driver = webdriver.Chrome(options=options)
             if profile_path:
@@ -79,8 +81,15 @@ class BrowserHandler(object):
     def set_driver_option(self):
         """Set browser option"""
         options = webdriver.FirefoxOptions()
-        profile_path = r"C:\Users\tnetw\AppData\Roaming\Mozilla\Firefox\Profiles\z129atq1.default-release"
-        options.add_argument(f"--profile {profile_path}")
+        firefox_profile = webdriver.FirefoxProfile()
+        download_dir = r"D:\\"
+        firefox_profile.set_preference("browser.download.folderList", 2)  # Use the custom download directory
+        firefox_profile.set_preference("browser.download.dir", download_dir)
+        firefox_profile.set_preference("browser.helperApps.neverAsk.saveToDisk",
+                                       "application/pdf,application/octet-stream")  # Add more MIME types if needed
+        firefox_profile.set_preference("pdfjs.disabled", True)  # Disable built-in PDF viewer
+        # profile_path = r"C:\Users\tnetw\AppData\Roaming\Mozilla\Firefox\Profiles\z129atq1.default-release"
+        # options.add_argument(f"--profile {profile_path}")
         windows_size_argument = self.get_browser_window_size_argument_from_cookie(self.get_cookie())
         if windows_size_argument:
             options.add_argument(windows_size_argument)
@@ -88,7 +97,7 @@ class BrowserHandler(object):
         options.add_argument(BrowserOptionConstant.NO_SANDBOX)
         options.add_argument(BrowserOptionConstant.SINGLE_PROCESS)
         options.add_argument(BrowserOptionConstant.DISABLE_DEV_SHM_USAGE)
-        self.driver = webdriver.Firefox(options=options)
+        self.driver = webdriver.Firefox(options=options, firefox_profile=firefox_profile)
         sleep(20)
 
     @staticmethod

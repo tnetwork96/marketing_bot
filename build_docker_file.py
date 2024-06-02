@@ -43,7 +43,7 @@ networks:
 
 docker_file_template = \
     Template("""
-FROM arm32v7/ubuntu:18.04
+FROM arm64v8/ubuntu:18.04
 WORKDIR /home/marketing-bot
 ENV PYTHONPATH /home/marketing-bot
 #COPY . ./

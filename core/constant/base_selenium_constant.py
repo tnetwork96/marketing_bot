@@ -93,6 +93,7 @@ class FacebookXPath:
     BUSSINESS_STORES_PATTERN = "//span[contains(.,'Stores')]"
     TOKEN_GEN_PATTERN = "//div[contains(.,'Generate Access Token')]"
 
+
 class GoogleXpath:
     SEARCH_IN_GMAIL_PATTERN = "//input[@aria-label='Search in mail']"
     LOGIN_LABEL = "//span[contains(.,u'Đăng nhập')]"
@@ -115,3 +116,19 @@ class GoogleUrl:
 
 class VietSchool:
     XEM_PATTERN = "//a[contains(.,'HỎI ĐÁP')]"
+
+
+class LanIT:
+    USERNAME_LOGIN = "//input[@id='username']"
+    PW_LOGIN = "//input[@id='_password']"
+    LOGIN_BUTTON = "//input[@id='login']"
+    VPS_CONTROL_PANEL = "//li[@id='lmlistvs']"
+    VPS_PRICE_PANEL = "//li[@id='lmcreate']"
+
+
+class ZomRo:
+    ORDER_BUTTON = "//button[contains(., 'Order')]"
+    SERVICE_LABEL = "//h3[@class='ServicesPage_page_title__rCCLC']"
+
+class OpNet:
+    shop_now_label = "//a[contains(text(), 'Shop now')]"
